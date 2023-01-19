@@ -1,4 +1,4 @@
-import { catsData } from 'https://arjundosajh.github.io/data.js'
+import { catsData } from './data.js'
 
 const emotionRadios = document.getElementById('emotion-radios')
 const getImageBtn = document.getElementById('get-image-btn')
@@ -100,7 +100,3 @@ function renderEmotionsRadios(cats){
 }
 
 renderEmotionsRadios(catsData)
-
-
-
-
